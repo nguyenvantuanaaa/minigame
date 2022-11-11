@@ -1,0 +1,19 @@
+@import "style-min";
+
+.screen1 {
+    background: url(../images/bg.jpg) center 0 no-repeat;
+    min-height: 3840px;
+    position: relative;
+    .container {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__list {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
